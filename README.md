@@ -85,16 +85,6 @@ Then open your browser and go to:
 
 ---
 
-## Freemarker Pages
-
-| Page                | URL Path       | Description                        |
-| ------------------- | -------------- | ---------------------------------- |
-| `index.html`        | `/`            | Home page with navigation          |
-| `addProduct.ftlh`   | `/add-product` | Form to add a new product          |
-| `showProducts.ftlh` | `/products`    | Displays all products in inventory |
-
----
-
 ## Future Improvements
 
 * Add user authentication (Admin login)
