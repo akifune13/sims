@@ -1,12 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Inventory System</title>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8">
+    <title>Simple Inventory Management System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            text-align: center;
+            padding-top: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        .buttons a {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .buttons a:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-<h2>Welcome to Simple Inventory System</h2>
-<a href="/products">Show Products</a> &nbsp; | &nbsp;
-<a href="/add-product">Add Product</a>
+<h1>Simple Inventory Management System</h1>
+<p>Choose an action below:</p>
+
+<div class="buttons">
+    <a href="/products">View Products</a>
+    <a href="/add-product">Add Product</a>
+    <a href="/edit-product">Edit Product</a>
+    <a href="/delete-product">Delete Product</a>
+</div>
 </body>
 </html>
