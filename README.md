@@ -27,35 +27,6 @@ This project serves as a simple inventory system that allows users to manage pro
 
 ---
 
-## Project Structure
-
-```
-src/
- ├── main/
- │   ├── java/com/example/demo/
- │   │   ├── controller/
- │   │   │   ├── ProductController.java
- │   │   │   └── ProductRestController.java
- │   │   ├── model/
- │   │   │   └── Product.java
- │   │   ├── repository/
- │   │   │   └── ProductRepository.java
- │   │   ├── service/
- │   │   │   ├── IProductService.java
- │   │   │   └── ProductService.java
- │   │   └── DemoApplication.java
- │   └── resources/
- │       ├── templates/
- │       │   ├── index.html
- │       │   ├── addProduct.ftlh
- │       │   └── showProducts.ftlh
- │       ├── application.properties
- │       └── static/
- └── test/
-```
-
----
-
 ## Setup and Installation
 
 ### 1. Prerequisites
